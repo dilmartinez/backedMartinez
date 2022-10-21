@@ -19,18 +19,18 @@ class Usuario {
   
   }
   
-  let usuario1 = new Usuario('Maria', 'Martínez.')
+  let usuarioNew = new Usuario('Maria', 'Martínez.')
   
-  usuario1.addMascota('oreo')   
-  usuario1.addMascota('blacking')  
-  usuario1.addMascota('whiting')
+  usuarioNew.addMascota('oreo')   
+  usuarioNew.addMascota('blacking')  
+  usuarioNew.addMascota('whiting')
   
-  usuario1.addBook('Viaje al fin de la noche','Louis-Ferdinand Céline')
-  //usuario1.addBook('Don Quijote de la Mancha','Miguel de Cervantes')
-  usuario1.addBook('Relatos cortos','Antón Chéjov')
+  usuarioNew.addBook('Viaje al fin de la noche','Louis-Ferdinand Céline')
+  //usuario.New.addBook('Don Quijote de la Mancha','Miguel de Cervantes')
+  usuarioNew.addBook('Relatos cortos','Antón Chéjov')
   
-  console.log(usuario1.getFullName())  
+  console.log(usuarioNew.getFullName())  
   
-  console.log(usuario1.countMascotas()) 
+  console.log(usuarioNew.countMascotas()) 
   
-  console.log(usuario1.getBookNames())
+  console.log(usuarioNew.getBookNames())
